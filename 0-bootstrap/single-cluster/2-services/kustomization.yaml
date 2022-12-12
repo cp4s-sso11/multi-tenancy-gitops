@@ -69,7 +69,7 @@ resources:
 #- argocd/instances/ibm-license-service-instance.yaml
 
 ## IBM Catalogs
-#- argocd/operators/ibm-catalogs.yaml
+- argocd/operators/ibm-catalogs.yaml
 
 # PAW
 #- argocd/instances/ibm-paw.yaml
@@ -123,8 +123,8 @@ resources:
 #- argocd/operators/openshift-pipelines.yaml
 
 # Serverless
-#- argocd/operators/openshift-serverless.yaml
-#- argocd/instances/openshift-serverless-knative-serving-instance.yaml
+- argocd/operators/openshift-serverless.yaml
+- argocd/instances/openshift-serverless-knative-serving-instance.yaml
 
 # Service Mesh
 #- argocd/operators/elasticsearch.yaml
